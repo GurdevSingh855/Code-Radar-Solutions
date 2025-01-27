@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() {
-  int a,b,c,d;
+  int a,b,c,;
+  float d;
   scanf("%d %d %d",&a &b &c);
   d=(a+b+c)/3;
-  printf("%d",d);
+  printf("%.2f",d);
     return 0;
 }
