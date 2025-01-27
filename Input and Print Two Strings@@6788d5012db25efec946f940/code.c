@@ -4,7 +4,7 @@ int main() {
     scanf("%s",&str);
     scanf("%s",&str1);
 
-    printf("%s and %s",str1,str2)
+    printf("%s and %s",str1,str2);
     
     return 0;
 }
