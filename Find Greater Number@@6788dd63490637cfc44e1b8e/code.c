@@ -13,6 +13,5 @@ int main() {
     else{
         printf("%d",b);
     }
-     printf("%s", welcome());
     return 0;
 }
