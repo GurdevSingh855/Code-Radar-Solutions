@@ -10,7 +10,7 @@ int main() {
     if(ch>='a'&&ch<='z'||ch>='A'&&ch<='Z'){
         if((ch='i'||ch='o'||ch='u'||ch='a'||ch='e')||(ch='I'||ch='O'||ch='U'||ch='A'||ch='E')){
             printf("Vowel");
-        }else{printf("Cononant")}
+        }else{printf("Consonant");}
     }
     else if(isdigit(ch)){
         printf("Digit");
