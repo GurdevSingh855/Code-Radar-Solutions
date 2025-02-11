@@ -1,21 +1,25 @@
 #include <stdio.h>
-
+#include<ctype.h>
 char* welcome() {
     return "Welcome to Code Radar!";
 }
 
 int main() {
-    char ch;
-    scanf("%c",&ch);
-    if(ch>='a'&&ch<='z'||ch>='A'&&ch<='Z'){
-        if((ch='i'||ch='o'||ch='u'||ch='a'||ch='e')||(ch='I'||ch='O'||ch='U'||ch='A'||ch='E')){
-            printf("Vowel");
-        }else{printf("Consonant");}
-    }
-    else if(isdigit(ch)){
+    char c;
+    scanf("%c",&c);
+    if(isdigit(c)){
         printf("Digit");
     }
+    else if (isalpha(c)){
+    char ch=tolower(c);
+    
+        if((ch='i'||ch='o'||ch='u'||ch='a'||ch='e')){
+            printf("Vowel");
+        }else{printf("Consonant");}}
+  
+   
     else{
-    printf("Special Character");}
+    printf("Special Character");
+    }
     return 0;
 }
