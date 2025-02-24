@@ -11,4 +11,4 @@ else if(s-c == 0){
 }
 else{
     printf("Loss");
-} return 0; }                                                                                                                                                                                                                                                                                                                                                                                                                                        1
+} return0; }                                                                                                                                                                                                                                                                                                                                                                                                                                        1
