@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a;
-    scanf("%d";&a);
+    scanf("%d",&a);
     int count=0;
     for(i=1,i<=a,i++){
         if(a%i==0){
@@ -13,6 +13,6 @@ int main(){
             printf("Prime");
         }
         else{printf("Not Prime");}
-        }
-    }
+        return 0;
+    
 }
