@@ -6,19 +6,19 @@ int main(){
     if(a==1){
         printf("Monday");
     }
-    else if(b==2){
+    else if(a==2){
         printf("Tuesday");
     }
-    else if(c==3){
+    else if(a==3){
         printf("Wednesday");
     }
-    else if(c==4){
+    else if(a==4){
         printf("Thursday");
     }
-    else if(c==5){
+    else if(a==5){
         printf("Friday");
     }
-    else if(c==6){
+    else if(a==6){
         printf("Saturday");}
      else{
         printf("Sunday");
